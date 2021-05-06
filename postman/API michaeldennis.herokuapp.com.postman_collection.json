@@ -1,0 +1,335 @@
+{
+	"info": {
+		"_postman_id": "d7ffe992-a1a7-4850-aa7b-d1daca20eb81",
+		"name": "API michaeldennis.herokuapp.com",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "POST insert api",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "userName",
+							"value": "dennis",
+							"type": "text"
+						},
+						{
+							"key": "accountNumber",
+							"value": "45456656556",
+							"type": "text"
+						},
+						{
+							"key": "emailAddress",
+							"value": "manullang_d@yahoo.com",
+							"type": "text"
+						},
+						{
+							"key": "identityNumber",
+							"value": "8787878787",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/api",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api"
+					],
+					"query": [
+						{
+							"key": "userName",
+							"value": "dennis",
+							"disabled": true
+						},
+						{
+							"key": "accountNumber",
+							"value": "2133333333",
+							"disabled": true
+						},
+						{
+							"key": "emailAddress",
+							"value": "manullang_d@yahoo.com",
+							"disabled": true
+						},
+						{
+							"key": "identityNumber",
+							"value": "321312312312",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET api",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3030/api",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"api"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "API GET findByaccountNumber",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJib2R5IjoiYXV0aG9yaXphdGlvbiIsImlhdCI6MTYyMDE5MTg5NywiZXhwIjoxNjIwMTkzMDk3fQ.GSfkYvrubkrmNyprc_EhPBcFJ1Jkesif_kjAhPqbzjg",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "accountNumber",
+							"value": "45456656556",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/findByaccountNumber",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"findByaccountNumber"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "API GET findByIdentityNumber",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJib2R5IjoiYXV0aG9yaXphdGlvbiIsImlhdCI6MTYyMDE5MTg5NywiZXhwIjoxNjIwMTkzMDk3fQ.GSfkYvrubkrmNyprc_EhPBcFJ1Jkesif_kjAhPqbzjg",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "IdentityNumber",
+							"value": "8787878787",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://michaeldennis.herokuapp.com/api/findByIdentityNumber",
+					"protocol": "https",
+					"host": [
+						"michaeldennis",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"findByIdentityNumber"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "API POST login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "username",
+							"value": "dennis",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "12345678",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://michaeldennis.herokuapp.com/api/login",
+					"protocol": "https",
+					"host": [
+						"michaeldennis",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT Update Data",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJib2R5IjoiYXV0aG9yaXphdGlvbiIsImlhdCI6MTYyMDIwMTA0NSwiZXhwIjoxNjIwMjAyMjQ1fQ.FfQ-EjIkuuVEO2GR-g8yhVbtr2ilxDzDMQZ9LiPXhk8",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "userName",
+							"value": "dennis",
+							"type": "text"
+						},
+						{
+							"key": "accountNumber",
+							"value": "45456656556",
+							"type": "text"
+						},
+						{
+							"key": "emailAddress",
+							"value": "manullang_d@yahoo.com",
+							"type": "text"
+						},
+						{
+							"key": "identityNumber",
+							"value": "8787878787",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://michaeldennis.herokuapp.com/api/1620201697966",
+					"protocol": "https",
+					"host": [
+						"michaeldennis",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"1620201697966"
+					],
+					"query": [
+						{
+							"key": "userName",
+							"value": "dennis",
+							"disabled": true
+						},
+						{
+							"key": "accountNumber",
+							"value": "2133333333",
+							"disabled": true
+						},
+						{
+							"key": "emailAddress",
+							"value": "manullang_d@yahoo.com",
+							"disabled": true
+						},
+						{
+							"key": "identityNumber",
+							"value": "321312312312",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJib2R5IjoiYXV0aG9yaXphdGlvbiIsImlhdCI6MTYyMDIwMDM3OSwiZXhwIjoxNjIwMjAxNTc5fQ.iNSo6qkQKIsgnDgsKfrf_uDq7FflI55wlRmuhque6hQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "Id",
+							"value": "1620199163415",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/1620201434946",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"1620201434946"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
