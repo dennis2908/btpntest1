@@ -16,12 +16,14 @@
   $ npm start</br>
   Server will run on localhost:3000
 2. Open Postman and import API Test BTPN.postman_collection.json from postman folder.</br>
-3. On Collection API Test BTPN, click API POST Login and click send.</br>
+3. Open Collection API Test BTPN.</br>
+4. Click API POST Login and click send.</br>
    It will generate and response a bearer Token.</br> 
    Use it for another request by putting the bearer token to Authorization</br>
    
 # Running server online (https://michaeldennis.herokuapp.com) :
 1. Open Postman and import API michaeldennis.herokuapp.com.postman_collection.json from postman folder.</br>
-2. On Collection API michaeldennis.herokuapp.com, click API POST Login and click send.</br>
+2. Open Collection API michaeldennis.herokuapp.com.</br>
+3. Click API POST Login and click send.</br>
    It will generate and response a bearer Token.</br> 
    Use it for another request by putting the bearer token to Authorization</br>   
