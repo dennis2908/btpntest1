@@ -6,12 +6,13 @@
 4. jsonwebtoken
 5. Postman
 6. Auth token auto generate 
-7. bearer token 
+7. bearer token Authorization
 
 # Instalation and running server locally :
 1. Use command prompt and direct to root folder and type :</br>
   $ npm install</br>
   $ npm start</br>
+  Server will run on localhost:3000
 2. Open Postman and import API Test BTPN.postman_collection.json from postman folder.</br>
 3. On Postman, click API POST Login and click send.</br>
    It will generate and response a bearer Token.</br> 
