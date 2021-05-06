@@ -1,8 +1,9 @@
 # Used technology :
 
 1. node JS
-2. mongo lite (neDB) because mongo DB online is not available for me
-3. node-cache will update to node-cache each time on add,update,delete case because redis online is not available.
+2. mongo lite (neDB) because mongo DB online is not available for me (don't have account)
+3. node-cache will update to node-cache each time on add,update,delete case because redis online is not available.<br>
+   (don't have account).
 4. jsonwebtoken
 5. Postman
 6. Auth token auto generate 
