@@ -12,7 +12,7 @@
 1. Use command prompt and direct to root folder and type :</br>
   $ npm install</br>
   $ npm start</br>
-2. Open Postman and import Shopping Cart.postman_collection.json from postman folder</br>
+2. Open Postman and import Shopping Cart.postman_collection.json from postman folder.</br>
 3. On Postman, click API POST Login and click send.</br>
    It will generate and response a bearer Token.</br> 
    Use it to another request by putting the bearer token to Authorization</br>
