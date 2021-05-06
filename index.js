@@ -6,7 +6,7 @@ const Datastore = require('nedb');
 
 //dir to save db file
 
-const pathToData = path.resolve(__dirname, "db/dbm")
+const pathToData = path.resolve(__dirname, "db/dennis")
 const db = new Datastore({ filename: pathToData});
 
 const NodeCache = require( "node-cache" );
