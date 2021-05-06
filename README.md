@@ -20,7 +20,7 @@
    It will generate and response a bearer Token.</br> 
    Use it for another request by putting the bearer token to Authorization</br>
    
-# Running server online (https://michaeldennis.herokuapp.com):
+# Running server online (https://michaeldennis.herokuapp.com) :
 1. Open Postman and import API michaeldennis.herokuapp.com.postman_collection.json from postman folder.</br>
 2. On Postman, click API POST Login and click send.</br>
    It will generate and response a bearer Token.</br> 
