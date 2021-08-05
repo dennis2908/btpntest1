@@ -16,7 +16,7 @@
    Server akan run di localhost:3000
 2. Buka Postman and import API Test BTPN.postman_collection.json dari folder postman.</br>
 3. Buka Collection API Test BTPN.</br>
-4. Tekan API POST Login dan click send.</br>
+4. Tekan API POST Login dan klik send.</br>
    Akan menghasilkan bearer Token.</br> 
    Gunakan dengan dimasukkan ke bearer token Authorization</br>
    
