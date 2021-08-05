@@ -1,7 +1,7 @@
 {
 	"info": {
 		"_postman_id": "d7ffe992-a1a7-4850-aa7b-d1daca20eb81",
-		"name": "API michaeldennis.herokuapp.com",
+		"name": "API btpnapidennis.herokuapp.com",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
@@ -36,12 +36,13 @@
 					]
 				},
 				"url": {
-					"raw": "http://localhost:3000/api",
-					"protocol": "http",
+					"raw": "https://btpnapidennis.herokuapp.com/api",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"btpnapidennis",
+						"herokuapp",
+						"com"
 					],
-					"port": "3000",
 					"path": [
 						"api"
 					],
@@ -77,12 +78,13 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3030/api",
-					"protocol": "http",
+					"raw": "https://btpnapidennis.herokuapp.com/api",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"btpnapidennis",
+						"herokuapp",
+						"com"
 					],
-					"port": "3030",
 					"path": [
 						"api"
 					]
@@ -119,12 +121,13 @@
 					]
 				},
 				"url": {
-					"raw": "http://localhost:3000/api/findByaccountNumber",
-					"protocol": "http",
+					"raw": "https://btpnapidennis.herokuapp.com/api/findByaccountNumber",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"btpnapidennis",
+						"herokuapp",
+						"com"
 					],
-					"port": "3000",
 					"path": [
 						"api",
 						"findByaccountNumber"
@@ -162,10 +165,10 @@
 					]
 				},
 				"url": {
-					"raw": "https://michaeldennis.herokuapp.com/api/findByIdentityNumber",
+					"raw": "https://btpnapidennis.herokuapp.com/api/findByIdentityNumber",
 					"protocol": "https",
 					"host": [
-						"michaeldennis",
+						"btpnapidennis",
 						"herokuapp",
 						"com"
 					],
@@ -198,10 +201,10 @@
 					]
 				},
 				"url": {
-					"raw": "https://michaeldennis.herokuapp.com/api/login",
+					"raw": "https://btpnapidennis.herokuapp.com/api/login",
 					"protocol": "https",
 					"host": [
-						"michaeldennis",
+						"btpnapidennis",
 						"herokuapp",
 						"com"
 					],
@@ -254,10 +257,10 @@
 					]
 				},
 				"url": {
-					"raw": "https://michaeldennis.herokuapp.com/api/1620201697966",
+					"raw": "https://btpnapidennis.herokuapp.com/api/1620201697966",
 					"protocol": "https",
 					"host": [
-						"michaeldennis",
+						"btpnapidennis",
 						"herokuapp",
 						"com"
 					],
@@ -317,12 +320,13 @@
 					]
 				},
 				"url": {
-					"raw": "http://localhost:3000/api/1620201434946",
-					"protocol": "http",
+					"raw": "https://btpnapidennis.herokuapp.com/api/1620201434946",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"btpnapidennis",
+						"herokuapp",
+						"com"
 					],
-					"port": "3000",
 					"path": [
 						"api",
 						"1620201434946"
