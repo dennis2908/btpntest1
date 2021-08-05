@@ -20,7 +20,7 @@
    Akan menghasilkan bearer Token.</br> 
    Gunakan dengan dimasukkan ke bearer token Authorization</br>
    
-# menjalankan server online (https://michaeldennis.herokuapp.com) :
+# menjalankan server online (https://btpnapidennis.herokuapp.com) :
 1. buka Postman dan import API API btpnapidennis.herokuapp.com.postman_collection.json dari folder postman</br>
 2. buka koleksi API michaeldennis.herokuapp.com.</br>
 3. Klik API POST Login dan klik send.</br>
